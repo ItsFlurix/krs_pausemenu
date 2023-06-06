@@ -1,7 +1,5 @@
 ESX = exports["es_extended"]:getSharedObject()
 
-
-
 RegisterNetEvent('esx:playerLoaded')
 AddEventHandler('esx:playerLoaded', function(xPlayer)
 	ESX.PlayerData = xPlayer
@@ -40,28 +38,28 @@ lib.registerContext({
 	end,
 	options = {
 		{
-			title = 'Map',
-			description = 'Open the Map of Los Santos',
+			title = 'Mapa',
+			description = 'Abrir mapa (nombre ciudad o server)',
 			icon = 'fa-solid fa-map-location-dot',  
-			image = 'https://cdn.discordapp.com/attachments/1052910824865402892/1115560752795877436/Mappa.png', -- Esempio --
+			image = 'https://cdn.discordapp.com/attachments/1052910824865402892/1115560752795877436/Mappa.png', -- Ejemplo --
 			arrow = false,
 			onSelect = function(data)
 				TriggerEvent("krs:aprimappa")
 			end,
 		},
 		{
-			title = 'Settings',
-			description = 'Open Game Settings',
+			title = 'Configuracion',
+			description = 'Abrir ajustes del juego',
 			icon = 'fa-solid fa-gear',
-			-- image = '', -- Esempio --
+			-- image = '', -- Ejemplo --
 			arrow = false,
 			onSelect = function(data)
 				TriggerEvent("krs:impostazioni")
 			end,
 		},
 		{
-			title = 'Quit',
-			description = 'Quit the Game',
+			title = 'Salir',
+			description = 'Salir del juego',
 			icon = 'fa-solid fa-circle-xmark',
 			-- image = '', -- Esempio --
 			arrow = false,

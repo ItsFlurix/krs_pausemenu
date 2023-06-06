@@ -39,9 +39,9 @@ lib.registerContext({
 	options = {
 		{
 			title = 'Mapa',
-			description = 'Abrir mapa (nombre ciudad o server)',
+			description = 'Abrir mapa',
 			icon = 'fa-solid fa-map-location-dot',  
-			image = 'https://cdn.discordapp.com/attachments/1052910824865402892/1115560752795877436/Mappa.png', -- Ejemplo --
+			image = 'https://cdn.discordapp.com/attachments/1052910824865402892/1115560752795877436/Mappa.png', -- Foto de ejemplo --
 			arrow = false,
 			onSelect = function(data)
 				TriggerEvent("krs:aprimappa")
@@ -51,7 +51,7 @@ lib.registerContext({
 			title = 'Configuracion',
 			description = 'Abrir ajustes del juego',
 			icon = 'fa-solid fa-gear',
-			-- image = '', -- Ejemplo --
+			-- image = '', -- Foto de ejemplo --
 			arrow = false,
 			onSelect = function(data)
 				TriggerEvent("krs:impostazioni")
@@ -59,9 +59,9 @@ lib.registerContext({
 		},
 		{
 			title = 'Salir',
-			description = 'Salir del juego',
+			description = 'Salir del servidor',
 			icon = 'fa-solid fa-circle-xmark',
-			-- image = '', -- Esempio --
+			-- image = '', -- Foto de ejemplo --
 			arrow = false,
 			onSelect = function(data)
 				TriggerEvent("krs:esci")

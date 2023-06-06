@@ -1,6 +1,6 @@
 ESX = exports["es_extended"]:getSharedObject()
 
-print('^5[𝗞𝗥𝗦® │Development] Menu de pausa \n ^0')
+print('^5[𝗞𝗥𝗦® │Development] Menu de pausa ha sido iniciado\n ^0')
 
 RegisterNetEvent("krs_pausemenu:escidalgioco", function()
     local playerSource = source

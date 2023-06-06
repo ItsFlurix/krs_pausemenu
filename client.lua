@@ -33,7 +33,7 @@ end
 
 lib.registerContext({
 	id = 'menupause',
-	title = 'Krs Pause Menu',
+	title = 'Menu de pausa',
 	onExit = function()
 	end,
 	options = {
